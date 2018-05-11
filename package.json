@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "eslint echo Eslint passed successfully && nyc mocha",
-    "coverage":" nyc --check-coverage true npm test"
+    "test": "nyc mocha",
+    "coverage": " nyc --check-coverage true npm test"
   },
   "author": "",
   "license": "ISC",
