@@ -1,19 +1,15 @@
 {
-  "name": "code_generator",
+  "name": "test",
   "version": "1.0.0",
-  "description": "This project generates crud operations from configuration file",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/khajamohiyoddin/code_generator.git"
+    "test": "eslint echo Eslint passed successfully && nyc mocha",
+    "coverage":" nyc --check-coverage true npm test"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/khajamohiyoddin/code_generator/issues"
-  },
-  "homepage": "https://github.com/khajamohiyoddin/code_generator#readme"
+  "dependencies": {
+    "nyc": "^11.7.1"
+  }
 }
