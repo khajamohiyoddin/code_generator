@@ -10,14 +10,14 @@ describe("app", function() {
                 });
            
         });
-        it("should return 20  when passing value for a 10", function(done) {
-            getUser(10)
-                .then((result)=>{
+        // it("should return 20  when passing value for a 10", function(done) {
+        //     getUser(10)
+        //         .then((result)=>{
 
-                    assert.equal(result,20);
-                    done();
-                });
+        //             assert.equal(result,20);
+        //             done();
+        //         });
            
-        });
+        // });
     });
 });
